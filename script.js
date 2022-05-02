@@ -13,6 +13,12 @@ function getCircumferenceOfCircle(radius) {
     return circumference;
 }
 
+function getAreaOfSquare(squareSide) {
+    let area = Math.pow(squareSide, 2);
+    return area;
+}
+
 
 console.log(getAreaOfCircle(radius));
 console.log(getCircumferenceOfCircle(radius));
+console.log(getAreaOfSquare(squareSide));
