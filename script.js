@@ -8,6 +8,11 @@ function getAreaOfCircle(radius) {
     return area;
 }
 
+function getCircumferenceOfCircle(radius) {
+    let circumference = 2 * radius * Math.PI;
+    return circumference;
+}
 
 
 console.log(getAreaOfCircle(radius));
+console.log(getCircumferenceOfCircle(radius));
