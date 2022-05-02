@@ -18,7 +18,12 @@ function getAreaOfSquare(squareSide) {
     return area;
 }
 
+function getAreaOfTriangle(triangleBase, triangleHeight) {
+    let area = (triangleHeight * triangleBase)/2
+    return area;
+}
 
 console.log(getAreaOfCircle(radius));
 console.log(getCircumferenceOfCircle(radius));
 console.log(getAreaOfSquare(squareSide));
+console.log(getAreaOfTriangle(triangleBase, triangleHeight));
